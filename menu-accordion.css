@@ -1,0 +1,75 @@
+#menu-accordion {
+    width: 400px;
+}
+
+.menu-block {
+    font-family: Verdana, sans-serif;
+    margin-bottom: 5px;
+    transition: background-color 1s;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+}
+.open .menu-block {
+    background-color: #E7E7E7;
+}
+
+.menu-block-title {
+    width: 100%;
+    min-height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.5s, color 1s;
+}
+.dark .menu-block-title {
+    background-color: #696666;
+}
+.light .menu-block-title {
+    background-color: #E7E7E7;
+}
+.open .menu-block-title {
+    background-color: #FF8663;
+}
+
+.menu-block-title-text {
+    float: left;
+    margin: 10px 0 0 20px;
+    font-size: 16px;
+}
+.dark .menu-block-title-text {
+    color: #fff;
+}
+.light .menu-block-title-text {
+    color: #4f4f4f;
+}
+.open .menu-block-title-text {
+    color: #fff;
+}
+
+.menu-block-title-pointer {
+    float: right;
+    margin: 14px 18px 0 0;
+}
+.close .menu-block-title-pointer, .open .menu-block-title-pointer {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+.close .menu-block-title-pointer {
+    border-top: 12px solid #FF8663;
+}
+.open .menu-block-title-pointer {
+    border-bottom: 12px solid #fff;
+}
+
+.menu-block-content {
+    height: 0;
+    transition: height 0.5s;
+    color: #4f4f4f;
+    overflow: hidden;
+}
+
+.menu-block-content-text {
+    padding: 20px;
+    height: auto;
+}
