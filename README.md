@@ -5,11 +5,11 @@ Live demo [here](http://embed.plnkr.co/KnFedKpOcfDf5cW6CHpv/).
 
 View in open state:
 
-![console output](https://github.com/cyberaktiv/colout/blob/master/test/close.png?raw=true)
+![console output](https://github.com/cyberaktiv/menu_accordion/blob/master/test/close.png?raw=true)
 
 View in close state:
 
-![console output](https://github.com/cyberaktiv/colout/blob/master/test/open.png?raw=true)
+![console output](https://github.com/cyberaktiv/menu_accordion/blob/master/test/open.png?raw=true)
 
 ### Include:
 ```html
