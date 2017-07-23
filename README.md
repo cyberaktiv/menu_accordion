@@ -3,11 +3,11 @@ Menu accordion on native javascript with CSS3
 
 Live demo [here](http://embed.plnkr.co/KnFedKpOcfDf5cW6CHpv/).
 
-View in open state:
+View in close state:
 
 ![console output](https://github.com/cyberaktiv/menu_accordion/blob/master/test/close.png?raw=true)
 
-View in close state:
+View in open state:
 
 ![console output](https://github.com/cyberaktiv/menu_accordion/blob/master/test/open.png?raw=true)
 
